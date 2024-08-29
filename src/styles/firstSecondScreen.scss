@@ -1,0 +1,116 @@
+.first{
+    text-align: center;
+    background-color: rgb(81, 73, 137);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_container{
+        text-align: center;
+        background-color: white;
+        border-radius: 5px;
+        min-height: 400px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        &_name{
+            font-size: 22px;
+        }
+        &_form{
+            width: 400px;
+            min-height: 170px;
+            margin: 20px;
+            .privacy{
+                font-size: 14px;
+                text-align: left;
+                &_text{
+                    text-decoration: none;
+                    color: rgb(81, 73, 137);
+                }
+                &_text:hover{
+                    cursor: pointer;
+                    color: rgb(32, 27, 62);
+                }
+            }
+            &_block{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-bottom: 15px;
+                width: 100%;
+                &_label{
+                    display: block;
+                }
+                &_label2{
+                    display: block;
+                    color: rgb(81, 73, 137);
+                    font-size: 12px;
+                    background-color: white;
+                    border: none;
+                }
+                &_label2:hover{
+                    cursor: pointer;
+                    color: rgb(46, 39, 92);
+                }
+                &_input{
+                    height: 35px;
+                    width: 400px;
+                    box-sizing: border-box;
+                    padding: 5px 10px;
+                    outline: none;
+                }
+                &_password{
+                    height: 35px;
+                    width: 400px;
+                    box-sizing: border-box;
+                    padding: 5px 10px;
+                    border: 1px solid black;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .icon:hover{
+                        cursor: pointer;
+                    }
+                    &_input{
+                        outline: none;
+                        border: none;
+                        width: 100%;
+                    }
+                }
+                .addedClass{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                }
+            }
+        }
+        &_button{
+            width: 400px;
+            height: 45px;
+            background-color: rgb(81, 73, 137);
+            color: white;
+            margin-top: 20px;
+            &_disabled{
+                background-color: rgb(131, 129, 146);
+            }
+        }
+        &_button:hover{
+            cursor: pointer;
+        }
+        &_bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 400px;
+            a{
+                text-decoration: none;
+            }
+            a:focus{
+                color: rgb(191, 0, 191);
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.list{
+    width: 600px;
+    height: 300px;
+    .listTimes{
+        display: flex;
+        width: 600px;
+        flex-wrap: wrap;
+        gap: 5px;
+        padding: 0;
+        .time{
+            width: 110px;
+            border: solid 3px rgb(81, 73, 137);
+            background-color: white;
+            height: 40px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .noTime{
+            width: 110px;
+            border: solid 3px rgb(213, 213, 213);
+            background-color: rgb(235, 235, 235);
+            color: grey;
+            height: 40px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            pointer-events: none;
+        }
+    }
+    .listTimes::after {
+        content: "";
+        flex: auto;
+    }
+    .time:hover {
+        cursor: pointer;
+        background-color: rgb(238, 238, 238);
+    }
+}

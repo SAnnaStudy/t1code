@@ -1,0 +1,29 @@
+.types{
+    width: 500px;
+    min-height: 40px;
+    &_list{
+        padding-left: 0;
+        display: flex;
+        float: left;
+        margin: 0;
+        &_li{
+            background-color: rgb(247, 244, 244);
+            border: 3px solid rgb(188, 188, 188);
+            border-radius: 15px;
+            min-height: 20px;
+            padding: 5px 15px;
+            margin-right: 5px;
+            list-style: none;
+            font-size: 14px;
+            display: inline;
+            float: left;
+        }
+        &_li:hover{
+            cursor: pointer;
+            background-color: rgb(238, 238, 238);
+        }
+        &_choosen{
+            border: 3px solid rgb(81, 73, 137);
+        }
+    }
+}

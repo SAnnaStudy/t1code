@@ -1,0 +1,63 @@
+.dates{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    .datesContent{
+        width: 730px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        justify-content: space-between;
+        .listDates{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            gap: 5px;
+            padding: 0;
+            .dates{
+                width: 100px;
+                border: solid 3px rgb(81, 73, 137);
+                background-color: white;
+                height: 20px;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .activeDate{
+                width: 110px;
+                background-color: rgb(81, 73, 137);
+                color: white;
+                height: 35px;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .datesButt{
+            padding: 5px;
+            width: 50px;
+            background-color: rgb(81, 73, 137);
+            color: rgb(255, 255, 255);
+            height: 35px;
+            font-size: 12px;
+        }
+    }
+    .datesButt2{
+        padding: 5px;
+        width: 150px;
+        border: solid 3px rgb(81, 73, 137);
+        background-color: white;
+        color: rgb(0, 0, 0);
+        height: 35px;
+        font-size: 12px;
+    }
+    .dates:hover, .activeDate:hover, .datesButt:hover, .datesButt2:hover{
+        cursor: pointer;
+    }
+}

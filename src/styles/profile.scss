@@ -1,0 +1,20 @@
+.profile {
+    text-align: center;
+    background-color: rgb(81, 73, 137);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    .content{
+      background-color: rgb(244, 244, 244);
+      width: 90%;
+      height: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border-radius: 5px;
+      flex-direction: column;
+      padding: 0 50px;
+    }
+}

@@ -1,0 +1,17 @@
+.errorPopUp{
+    flex-direction: column;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    button{
+        font-size: 16px;
+        color: rgb(81, 73, 137);
+        margin: 0;
+        background-color: white;
+        border: none;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+}

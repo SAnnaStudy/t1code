@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 50px;
+    padding: 0 50px;
+    &_logo{
+        font-size: 18px;
+        color: white;
+    }
+    &_butt{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        &_thing{
+            font-size: 16px;
+            color: white;
+        }   
+        &_thing:hover{
+            cursor: pointer;
+            color: #e6e6e6;
+        }
+    }
+}
